@@ -1,0 +1,39 @@
+.square {
+    stroke: blue;
+    stroke-width: 5px;
+    fill: lightgreen;
+}
+
+.rectangle {
+    stroke: green;
+    stroke-width: 5px;
+    fill: yellow;
+}
+
+.ellipse {
+    stroke: orange;
+    stroke-width: 5px;
+    fill: lightgray;
+}
+
+.animated-circle {
+    stroke: red;
+    stroke-width: 5px;
+    fill: lightpink;
+    animation: colorChange 3s infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        stroke: red;
+        fill: lightpink;
+    }
+    50% {
+        stroke: purple;
+        fill: lightblue;
+    }
+    100% {
+        stroke: red;
+        fill: lightpink;
+    }
+}
